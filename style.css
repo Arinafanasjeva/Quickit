@@ -12,17 +12,24 @@
 
 .header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: baseline;
+  /* overflow: hidden; */
   list-style: none;
   background-color: #036563;
   color: white;
-  width: 100%;
-  height: 3em;
+  height: 4em;
+}
+
+.logoImg {
+  max-height: 100%;
+  max-width: 4%;
 }
 li {
   text-transform: uppercase;
+  /* display: inline; */
 }
+
 /* ************************************************CONTACT HTML PAGE************************************************ */
 /* INTRO TEXT */
 .introContact {
